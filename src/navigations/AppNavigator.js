@@ -9,15 +9,15 @@ import ReceipeDetailScreen from "../screens/ReceipeDetailScreen/index";
 const Stack = createNativeStackNavigator();
 
 const AppNavigator = () => {
-  return (
-<NavigationContainer>
+	return (
+		<NavigationContainer>
 			<Stack.Navigator screenOptions={{ headerShown: false }}>
 				<Stack.Screen name="Welcome" component={WelcomeScreen} />
 				<Stack.Screen name="ReceipeList" component={ReceipeListScreen} />
 				<Stack.Screen name="ReceipeDetail" component={ReceipeDetailScreen} />
 			</Stack.Navigator>
 		</NavigationContainer>
-  )
+	)
 }
 
 export default AppNavigator;

@@ -17,7 +17,7 @@ const ReceipeCard = () => {
                 columnWrapperStyle={{ justifyContent: 'space-between' }}
                 showsVerticalScrollIndicator={false}
                 renderItem={({ item }) => (
-                    <TouchableOpacity onPress={() => navigation.navigate('ReceipeDetail', { item : item })}
+                    <TouchableOpacity onPress={() => navigation.navigate('ReceipeDetail', { item: item })}
                         style={styles.imageContainer}>
 
                         <Image source={item.image} style={styles.imageStyle} />

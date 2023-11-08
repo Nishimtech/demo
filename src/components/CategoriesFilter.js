@@ -26,7 +26,7 @@ const CategoriesFilter = ({ index }) => {
                                 shadowOpacity: 0.1,
                                 shadowRadius: 7,
                                 marginVertical: 6,
-                                marginHorizontal:12
+                                marginHorizontal: 12
                             }}
                         >
                             <Text
@@ -50,8 +50,8 @@ const styles = StyleSheet.create({
     container: {
         marginTop: 10,
         flexDirection: 'row',
-}
-   
+    }
+
 })
 
 export default CategoriesFilter;

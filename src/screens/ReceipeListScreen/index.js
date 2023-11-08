@@ -9,16 +9,16 @@ import styles from './styles';
 const ReceipeListScreen = () => {
   return (
     <View style={styles.container}>
-        <Header headerText={"Hi, John "} headerIcon={"bell-o"} />
-        <SearchFilter placeholder ={'Enter your fav recipe'} icon='search'/>
-        <View style={styles.heading}>
-				<Text style={styles.categoryText}>Categories</Text>
-				<CategoriesFilter />
-			</View>
+      <Header headerText={"Hi, John "} headerIcon={"bell-o"} />
+      <SearchFilter placeholder={'Enter your fav recipe'} icon='search' />
+      <View style={styles.heading}>
+        <Text style={styles.categoryText}>Categories</Text>
+        <CategoriesFilter />
+      </View>
       <View style={styles.subHeading}>
-      <Text style={styles.categoryText}>Recipe</Text>
-     <ReceipeCard/>
-     </View>
+        <Text style={styles.categoryText}>Recipe</Text>
+        <ReceipeCard />
+      </View>
     </View>
   )
 }

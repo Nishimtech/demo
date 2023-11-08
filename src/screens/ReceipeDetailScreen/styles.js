@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     desText: {
         marginVertical: 15,
         fontSize: 20,
-        marginHorizontal:10
+        marginHorizontal: 10
     },
     timeContainer: {
         backgroundColor: 'rgba(255, 0, 0, 0.38)',
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
         // height: 30,
         // width: 30,
         // borderRadius: 5,
-       
+
     },
     time: {
         fontSize: 18,

@@ -56,7 +56,7 @@ const ReceipeDetailScreen = ({ navigation, route }) => {
               <Text style={styles.ingText}>Steps: </Text>
               {item.steps.map((step, index) => {
                 return (
-                 <Text style={{ fontSize: 15, marginLeft: 10, marginVertical: 6 }}>{`${index + 1} ) ${step}`}</Text>
+                  <Text style={{ fontSize: 15, marginLeft: 10, marginVertical: 6 }}>{`${index + 1} ) ${step}`}</Text>
 
                 )
               })}
